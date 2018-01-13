@@ -10,8 +10,8 @@ import json
 
 
 # Note these are some invalid test users.
-# users=["12332342344522","1232132423422323","21323213231234","23232121323243","2490921312323137"]
-hash_tags=["#something"]
+users=["userid"]
+# hash_tags=["#hashtag"]
 # terms=["keyword1","keyword2","keyword3","keyword4"]
 
 class StdOutListener(StreamListener):
@@ -22,8 +22,9 @@ class StdOutListener(StreamListener):
         jsonData = json.loads(data)
         text = jsonData['text']
         place = jsonData['place']
+        place_name = place['full_name']
         print(text)
-        print(place)
+        print(place_name)
         return True
 
     def on_error(self, status):
@@ -35,5 +36,5 @@ if __name__ == '__main__':
     auth.set_access_token(access_token, access_secret)
 
     stream = Stream(auth, l)
-    stream.filter(track=hash_tags)
-    # stream.filter(follow=users,track=hash_tags+terms)
+    # stream.filter(track=hash_tags)
+    stream.filter(follow=users)
