@@ -1,8 +1,8 @@
-#RoyalHackaway 2018
+# RoyalHackaway 2018
 
 *By Sam Warner and Selina-Jane Spencer*
 
-##Dependencies
+## Dependencies
 
 You'll need Python and Tweepy installed
 
