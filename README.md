@@ -11,14 +11,23 @@ Inspired by the Weasley Clock from the Harry Potter series, this system is exten
 You'll need Python and Tweepy installed on your Dragonboard 410c.
 
 * Python is the entire way the system works. GPIO pin interaction, and twitter listener both need this!
+
 `sudo apt install python`
+
 * Tweepy is needed to listen for tweets:
+
 `pip install tweepy`
+
 * Dragonboard 410c
+
 This is obvious - you can pick them up at [96boards](https://www.96boards.org/)!
+
 * Some kind of servo or stepper motor
+
 We're using the Kuman KY66, as the stepper motor and driver supplied have no documentation **anywhere** on the internet!
+
 * Something to house your clock
+
 We've used some cardboard for the face, and even more cardboard for the hand.
 
 ## Current problems
