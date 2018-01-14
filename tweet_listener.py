@@ -7,10 +7,13 @@ from tweepy import Stream
 import json
 
 #consumer key, consumer secret, access token, access secret.
-
+consumer_key = #secret_here
+consumer_secret = #secret_here
+access_token = #secret_here
+access_secret = #secret_here
 
 # Note these are some invalid test users.
-users=["userid"]
+users=["1234567890"]
 # hash_tags=["#hashtag"]
 # terms=["keyword1","keyword2","keyword3","keyword4"]
 
