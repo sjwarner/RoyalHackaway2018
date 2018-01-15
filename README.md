@@ -4,6 +4,8 @@ A 'magic' clock to passively present information about where you someone is, bas
 
 Inspired by the Weasley Clock from the Harry Potter series, this system is extensible enough to add a few users, have many hands, and set it up for your entire family / flat!
 
+** * Winners of best IoT hack (from MLH on behalf of Qualcomm) * **
+
 *By Sam Warner and Selina-Jane Spencer*
 
 ## Dependencies and things
